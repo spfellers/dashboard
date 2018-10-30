@@ -1,0 +1,7 @@
+/* For starters just using bootstrap prebuilts bc cbfa to write sass */
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap-grid';
+
+/* might use this theme, mat has a few nice components too */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";

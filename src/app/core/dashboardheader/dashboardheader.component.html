@@ -1,0 +1,19 @@
+<!--
+This is a dark theme siteheader.
+Ideally at somepoint add themes,
+but dark is easy on the eyes.
+Should eventually include links to github/twitter/whatever
+unless I throw those in the footer
+-->
+
+<mat-toolbar class="navbar navbar-dark bg-dark fixed-top">
+    <span class="text-white-50" (click)="toggle()"> Dashboard ></span>
+<i class="fab fa-github"></i>
+    <span>Right Aligned Text</span>
+</mat-toolbar>
+
+<!--
+putting this shit as a sub component of the header
+for easy manipulation + its a toggle
+-->
+<dashboard-sidebar [open]="open"></dashboard-sidebar>
